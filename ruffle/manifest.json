@@ -1,0 +1,39 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "dist/background.js" ]
+   },
+   "browser_action": {
+      "browser_style": true,
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "dist/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'unsafe-inline'; connect-src *; img-src data:;",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://ruffle.rs/",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "180": "images/icon180.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAof4wCcledLBsEpZaGVr29Z7gvvYrCAn9o3/4BHORgqnf45B7Rvw++6gFRbumPKQdHYsnpwuqJ424eZWA4f2Bg8QDfLANHp+7Lo4qH2r9129vCTTyOvBJQQg1mhqn1/RIQ2xxHladcHDgzqVJ6IMskMiecRo55eeoyM6MA+TbwPhIRtnuwjWt8BfMYw66UN1V1sq0XNPtknd2nXJhYgTg361Ku97j+K+XhE/9wW1SZL74cefPmdidnUlo81cfO1nSW4i14FCkWgi7PN6jDDAr9znSgEGT2gJaLoVNWYcNSgjWtNlxQlAhgrr/ZyX1vqrurW4fRwy8o8y5Z1Ys7wBAsQIDAQAB",
+   "manifest_version": 2,
+   "name": "Ruffle",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0.323",
+   "version_name": "0.1.0 nightly 2021-12-18",
+   "web_accessible_resources": [ "*" ]
+}

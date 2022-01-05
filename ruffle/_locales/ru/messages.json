@@ -1,0 +1,56 @@
+{
+   "action_reload": {
+      "message": "Перезагрузите вкладку, чтобы применить изменения"
+   },
+   "description": {
+      "message": "Возвращает Flash в веб на свое место."
+   },
+   "open_settings_page": {
+      "message": "Открыть страницу настроек"
+   },
+   "save_settings": {
+      "message": "Сохранить настройки"
+   },
+   "settings_ignore_optout": {
+      "message": "Игнорировать предупреждения о совместимости с сайтами"
+   },
+   "settings_page": {
+      "message": "Страница настроек"
+   },
+   "settings_page_ignore_optout": {
+      "message": "Проигрывать Flash-контент даже на тех сайтах, где Ruffle отключен"
+   },
+   "settings_ruffle_enable": {
+      "message": "Проигрывать Flash-контент в Ruffle"
+   },
+   "settings_saved": {
+      "message": "Настройки сохранены"
+   },
+   "status_init": {
+      "message": "Чтение текущей вкладки..."
+   },
+   "status_message_init": {
+      "message": "Проверка статуса Ruffle в текущей вкладке..."
+   },
+   "status_no_tabs": {
+      "message": "Нет активных вкладок."
+   },
+   "status_result_disabled": {
+      "message": "Ruffle не запущен, потому что он был отключен пользователем."
+   },
+   "status_result_error": {
+      "message": "Произошла ошибка при запуске Ruffle в текущей вкладке."
+   },
+   "status_result_optout": {
+      "message": "Ruffle не запущен, потому что текущая страница помечена владельцем как несовместимая."
+   },
+   "status_result_protected": {
+      "message": "Ruffle не может запускаться на защищенных страницах браузера."
+   },
+   "status_result_running": {
+      "message": "Ruffle запущен и проигрывает Flash-контент в текущей вкладке."
+   },
+   "status_tabs_error": {
+      "message": "Произошла ошибка при обработке текущей вкладки."
+   }
+}
